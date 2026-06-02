@@ -1,0 +1,32 @@
+:root {
+    --blu: #3B82F6;
+    --rosso: #EF4444;   
+    --bianco: #faf9f5;
+    --azzurro: #93C5FD;
+    --grigio: #374151;
+}
+
+body, a{
+    color: var(--grigio);
+}
+
+.bg-bianco{
+    background-color: var(--bianco);
+}
+
+.bg-azzurro{
+    background-color: var(--azzurro);
+}
+
+.text-bianco{
+    color: var(--bianco);
+}
+
+.text-rosso{
+    color: var(--rosso);
+}
+
+.card-img{
+    height: 18rem;
+    object-fit: cover;
+}
