@@ -7,11 +7,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
-<body>
+<body class="bg-azzurro">
 
     <x-navbar></x-navbar>
 
-    <div class="container-fluid min-vh-100 bg-azzurro m-0 p-0">
+    <div class="container-fluid min-vh-100 m-0 p-0">
         {{ $slot }}
     </div>
 

@@ -41,7 +41,7 @@ class ArticleCreate extends Component
             'img'=> !$this->img ? null : $this->img->store('public/img')
         ]);
         
-        return redirect()->route('home')->with('successMessage', 'Articolo creato!');
+        return redirect()->route('homepage')->with('successMessage', 'Articolo creato!');
     }
 
     public function render()

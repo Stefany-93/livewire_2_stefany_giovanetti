@@ -26,7 +26,12 @@ body, a{
     color: var(--rosso);
 }
 
+.heightCustom{
+    height:70vh;
+}
+
 .card-img{
     height: 18rem;
     object-fit: cover;
 }
+
